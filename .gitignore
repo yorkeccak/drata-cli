@@ -1,0 +1,30 @@
+node_modules/
+dist/
+*.tgz
+
+# Secrets - NEVER commit these
+.env
+.env.*
+.env.local
+.env.*.local
+*.pem
+*.key
+credentials.*
+secrets.*
+*.secret
+api-key*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
