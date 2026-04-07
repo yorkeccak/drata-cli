@@ -18,7 +18,7 @@ Covers **all 125 endpoints** of the Drata API v2 across 29 resource types - cont
 ## Install
 
 ```bash
-git clone https://github.com/harveyyorke/drata-cli.git
+git clone https://github.com/yorkeccak/drata-cli.git
 cd drata-cli
 pnpm install
 pnpm build
@@ -310,7 +310,7 @@ jobs:
 
       - name: Install Drata CLI
         run: |
-          git clone https://github.com/harveyyorke/drata-cli.git /tmp/drata-cli
+          git clone https://github.com/yorkeccak/drata-cli.git /tmp/drata-cli
           cd /tmp/drata-cli && pnpm install && pnpm build
 
       - name: Check for failing compliance tests
