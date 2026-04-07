@@ -1,14 +1,9 @@
 {
-  "name": "@drata/cli",
+  "name": "drata-cli",
   "version": "0.1.0",
+  "private": true,
   "description": "Drata CLI for agentic compliance - manage your entire Drata compliance platform from the terminal",
   "type": "module",
-  "bin": {
-    "drata": "./dist/cli.cjs"
-  },
-  "files": [
-    "dist/cli.cjs"
-  ],
   "scripts": {
     "dev": "tsx src/cli.ts",
     "build": "node scripts/build.mjs",
